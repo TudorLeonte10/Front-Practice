@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(225, 233, 240);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6em;
+    color: rgb(49, 38, 24);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border: 3px solid;
+    border-radius: 50px;
+    background-color: rgb(255, 238, 213);
+    transform: translateY(-30px);
+}
+
+#display{
+    font-size: 4rem;
+    font-family: monospace;
+    font-weight: bold;
+    text-shadow: 1.5px 1.5px 1.5px;
+    color: rgb(39, 29, 16);
+    margin-bottom: 20px;
+}
+
+#controls button{
+    font-size: 1.5rem;
+    background-color: rgb(225, 233, 240);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#startBtn{
+    transform: translateX(-10px);
+}
+
+#resetBtn{
+    transform: translateX(10px);
+}
+
+#startBtn:hover{
+    background-color: aliceblue;
+}
+#stopBtn:hover{
+    background-color: aliceblue;
+}
+#resetBtn:hover{
+    background-color: aliceblue;
+}
+
+#date{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
